@@ -43,7 +43,91 @@ body {
     background-color: hsl(225, 100%, 98%);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: relative;
 }
 
+.subcontent2 {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -50%;
+}
+
+.subcontent2 h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: -20px;
+    color:hsl(223, 47%, 23%);
+}
+
+.subcontent2 #song {
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    width: 290px;
+    margin-top: 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+.planoption {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.musicplan {
+    display: flex;
+    gap: 15px;
+}
+
+.plan #desc {
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan #amount {
+    color: hsl(224, 23%, 55%);
+}
+
+.planoption a {
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+}
+
+.buttons {
+    margin-top: 45px;
+}
+
+.buttons input {
+    width: 80%;
+    height: 40px;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+}
+
+.buttons #payment {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+
+}
+
+.buttons #cancel {
+    color: hsl(224, 23%, 55%);
+    background-color: transparent;
+}
 
 
